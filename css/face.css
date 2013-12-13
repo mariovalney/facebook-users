@@ -1,0 +1,22 @@
+/* Fontes */
+@font-face{font-family:'MyriadProBold'; src: url('../fonts/myriad/myriadpro-bold-webfont.eot'); src: url('../fonts/myriad/myriadpro-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/myriad/myriadpro-bold-webfont.woff') format('woff'), url('../fonts/myriad/myriadpro-bold-webfont.ttf') format('truetype'), url('../fonts/myriad/myriadpro-bold-webfont.svgz#MyriadProBold') format('svg'), url('../fonts/myriad/myriadpro-bold-webfont.svg#MyriadProBold') format('svg'); font-weight:bold; font-style:normal;}
+@font-face{font-family:'MyriadProSemiBold'; src: url('../fonts/myriad/myriadpro-semibold-webfont.eot'); src: url('../fonts/myriad/myriadpro-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/myriad/myriadpro-semibold-webfont.woff') format('woff'), url('../fonts/myriad/myriadpro-semibold-webfont.ttf') format('truetype'), url('../fonts/myriad/myriadpro-semibold-webfont.svgz#MyriadProSemiBold') format('svg'), url('../fonts/myriad/myriadpro-semibold-webfont.svg#MyriadProSemiBold') format('svg'); font-weight:bold; font-style:normal;}
+@font-face{font-family:'MyriadPro'; src: url('../fonts/myriad/myriadpro-regular-webfont.eot'); src: url('../fonts/myriad/myriadpro-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/myriad/myriadpro-regular-webfont.woff') format('woff'), url('../fonts/myriad/myriadpro-regular-webfont.ttf') format('truetype'), url('../fonts/myriad/myriadpro-regular-webfont.svgz#MyriadPro') format('svg'), url('../fonts/myriad/myriadpro-regular-webfont.svg#MyriadPro') format('svg'); font-weight:normal; font-style:normal;}
+@font-face{font-family:'MorganAvec'; src: url('../fonts/morganavec/morganavecregular-webfont.eot'); src: url('../fonts/morganavec/morganavecregular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/morganavec/morganavecregular-webfont.woff') format('woff'), url('../fonts/morganavec/morganavecregular-webfont.ttf') format('truetype'), url('../fonts/morganavec/morganavecregular-webfont.svg#morganavec_regularregular') format('svg'); font-weight: normal; font-style: normal;}
+@font-face{font-family:'MorganBold'; src: url('../fonts/morganavec/morganavec-boldlining-webfont.eot'); src: url('../fonts/morganavec/morganavec-boldlining-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/morganavec/morganavec-boldlining-webfont.woff') format('woff'), url('../fonts/morganavec/morganavec-boldlining-webfont.ttf') format('truetype'), url('../fonts/morganavec/morganavec-boldlining-webfont.svg#morganavec_liningbold') format('svg'); font-weight: normal; font-style: normal;}
+
+/* Resets e HTML 5 */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, ieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+a {text-decoration:none;}
+
+/* GERAL */
+html {overflow: hidden;}
+body {background: #eeebed;line-height: 1; font-size:14px; font-family:MyriadPro,"Tahoma"; color:#666;}
+h1 {font-family: MorganBold;font-size: 20px;}
+h2 {font-family: MorganAvec;font-size: 15px;}
+.container {position: absolute; left: 200px; right: 0px;top:0;bottom:0;overflow: hidden;}
