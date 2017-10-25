@@ -7,6 +7,10 @@ var app = {
     init: function() {
         var self = this;
 
+        if (window.location.hash && parseInt(window.location.hash.substr(1))) {
+            this.initialId = window.location.hash.substr(1);
+        }
+
         setInterval(function() {
             self.addUsers();
         }, 500);
